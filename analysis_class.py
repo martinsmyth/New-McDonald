@@ -207,7 +207,7 @@ class Results:
         final_vars_of_interest = collections.OrderedDict()
         for var in self.stats_of_interest:
             final_vars_of_interest[var] = pd.Series(
-                [round(self.dynamics_vars_interest_dict[name][var][199], 2) for name in self.variables_of_interest],
+                [round(self.dynamics_vars_interest_dict[name][var][len(self.dynamics_vars_interest_dict[name][var])-1], 2) for name in self.variables_of_interest],
                 index=self.variables_of_interest)
         final_vars_of_interest_df = pd.DataFrame(final_vars_of_interest)
         return final_vars_of_interest_df

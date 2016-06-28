@@ -59,12 +59,12 @@ def analyze(nb_of_runs, id_run=id_run_ident):
     merger.write(name)
     for filename in figures:
         os.remove(filename)
-    #print("Start making table..."),
-    #df = results.provide_statistics()
-    #path_table = 'output/tables/' + output_title + '_table.tex'
-    #with open(path_table, "w") as f:
-    #    f.write(df.to_latex(column_format="lcccc"))
-    #print("...finished.")
+    print("Start making table..."),
+    df = results.provide_statistics()
+    path_table = 'output/tables/' + output_title + '_table.tex'
+    with open(path_table, "w") as f:
+        f.write(df.to_latex(column_format="lcccc"))
+    print("...finished.")
 
     # results.save_data()
     print("Success!")
