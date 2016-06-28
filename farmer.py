@@ -1,6 +1,6 @@
 import copy
 import numpy as np
-from scipy.stats import norm
+from scipy.stats import truncnorm
 
 
 class Farmer:
@@ -86,9 +86,9 @@ class Farmer:
         """
         A normal distribution of which negative values are censored.
         """
-        x = norm.rvs(loc=mean, scale=var)
-        while x < 0.0:
-            x = norm.rvs(loc=mean, scale=var)
+        a, b = -mean, mean
+        x = truncnorm.rvs(a, b, loc=0, scale=var)
+        x += mean
         return x
 
     @property
