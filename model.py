@@ -10,6 +10,9 @@ import pandas as pd
 
 import population_generator
 
+__author__ = "Claudius Graebner"
+__mail__ = "graebnerc@uni-bremen.de"
+
 
 class Model:
     def __init__(self, parameters, output_filename, ident):
@@ -83,7 +86,7 @@ class Model:
 
     def run(self):
         """
-        Runs the model.
+        Runs the model for the specified number of time steps. At the end it saves the output.
         """
         params = self.__parameters
         self.record()
@@ -98,6 +101,14 @@ class Model:
     def update(self, i):
         """
         The update procedure implemented at any time step.
+
+        Procedure
+        ----------
+
+        1. It first calculates the average yield for the NP users.
+        2. Then agents choose the type of seed they want to use.
+        3. Finally they receivy their income.
+        4. At the end of every time step, the relevant variables are recorded.
         """
         agents_NP = [f for f in self.__agents if f.seed == 1]
         if i == 0:

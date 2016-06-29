@@ -6,8 +6,6 @@ import logging
 import networkx as nx
 import farmer
 
-import pdb
-
 __author__ = "Claudius Graebner"
 __email__ = "graebnerc@uni-bremen.de"
 
@@ -17,7 +15,19 @@ class PopulationGenerator:
     This class is used only to initialize the population. All relevant properties are set via the parameter file.
     """
     def __init__(self, parameter_file, logging_filename, model_instance):
+        """
+        Parameters
+        ----------
 
+        parameter_file : file
+            The file that contains the parametrization of the model run.
+
+        logging_filename : file
+            The file to store the logs.
+
+        model_instance : model.Model
+            The instance of the associated model.
+        """
         assert type(parameter_file) == dict, "Parameters given in the wrong format!"
         self.__logging_filename = logging_filename
         self.__params = parameter_file
@@ -60,7 +70,7 @@ class PopulationGenerator:
 
     def make_neighborhoods(self, list_of_agents):
         """
-        Makes the neighborhood for the population. It is set via the parameters file.
+        Allocates the agents on a grip. A von Neumann neighborhood is assumed so every agent has four neighbors.
         """
         assert isinstance(list_of_agents, list), "list of agents not list but {}".format(type(list_of_agents))
         assert isinstance(list_of_agents[0], farmer.Farmer), \

@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 A computational experiment that is used to derive an algorithmic definition of an institution.
+This file is the meta-function that implements the computational model by running several instances of the model
 """
 import json
 import logging
