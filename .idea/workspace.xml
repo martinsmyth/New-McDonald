@@ -1,44 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="efd4aeb8-42d2-47d5-baa0-c7bd622f649d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/figures/model_0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/figures/parameters_results.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/parameters.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/parameters_data.h5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/parameters_data.h5_old" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/tables/parameters_table.tex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/m0_p25_v0.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/m0_p25_v1.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/m0_p25_v10.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/m0_p25_v5.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/m0_p5_v0.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/m0_p5_v1.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/m0_p5_v10.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/m0_p5_v5.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/m0_p75_v0.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/m0_p75_v1.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/m0_p75_v10.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/m0_p75_v5.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/models/m1_k100_A.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/models/m1_k100_B.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/models/m1_k100_C.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/models/m1_k10_A.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/models/m1_k10_B.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/models/m1_k10_C.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/models/m1_k1_A.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/models/m1_k1_B.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/models/m1_k1_C.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/models/m1_k50_A.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/models/m1_k50_B.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/models/m1_k50_C.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/parameters.json" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/tables/build/results_table_preview.pdf" afterPath="$PROJECT_DIR$/output/tables/build/results_table_preview.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/tables/build/results_table_preview.synctex.gz" afterPath="$PROJECT_DIR$/output/tables/build/results_table_preview.synctex.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/tables/build/results_table_preview.aux" afterPath="$PROJECT_DIR$/output/tables/build/results_table_preview.aux" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/tables/results_table_preview.tex" afterPath="$PROJECT_DIR$/output/tables/results_table_preview.tex" />
-    </list>
+    <list default="true" id="efd4aeb8-42d2-47d5-baa0-c7bd622f649d" name="Default" comment="" />
     <ignored path="gwcss.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -187,20 +150,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="gwcss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gwcss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gwcss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="specifications" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
