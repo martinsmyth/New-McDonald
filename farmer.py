@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
 The farmer class. It only provides the code for the farmers and contains methods for strategy switching and payoff.
 """
