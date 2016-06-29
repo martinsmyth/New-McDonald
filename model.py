@@ -2,7 +2,6 @@
 """
 The file with the main experiment instance. It is called from the main file for every overall iteration of the model.
 """
-
 import json
 import logging
 import numpy as np
@@ -17,7 +16,7 @@ __mail__ = "graebnerc@uni-bremen.de"
 class Model:
     def __init__(self, parameters, output_filename, ident):
         """
-        Initiates a model instance..
+        Initiates a model instance.
 
         Parameters
         ----------
