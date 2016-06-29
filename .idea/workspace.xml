@@ -2,13 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efd4aeb8-42d2-47d5-baa0-c7bd622f649d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/figures/parameters_results.pdf" afterPath="$PROJECT_DIR$/output/figures/parameters_results.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/parameters_data.h5" afterPath="$PROJECT_DIR$/output/parameters_data.h5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/parameters_data.h5_old" afterPath="$PROJECT_DIR$/output/parameters_data.h5_old" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/figures/model_0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/figures/parameters_results.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/parameters.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/parameters_data.h5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/parameters_data.h5_old" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/tables/parameters_table.tex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/m0_p25_v0.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/m0_p25_v1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/m0_p25_v10.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/m0_p25_v5.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/m0_p5_v0.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/m0_p5_v1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/m0_p5_v10.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/m0_p5_v5.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/m0_p75_v0.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/m0_p75_v1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/m0_p75_v10.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/m0_p75_v5.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/models/m1_k100_A.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/models/m1_k100_B.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/models/m1_k100_C.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/models/m1_k10_A.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/models/m1_k10_B.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/models/m1_k10_C.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/models/m1_k1_A.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/models/m1_k1_B.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/models/m1_k1_C.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/models/m1_k50_A.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/models/m1_k50_B.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/models/m1_k50_C.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/specifications/parameters.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/tables/build/results_table_preview.pdf" afterPath="$PROJECT_DIR$/output/tables/build/results_table_preview.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/tables/build/results_table_preview.synctex.gz" afterPath="$PROJECT_DIR$/output/tables/build/results_table_preview.synctex.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analysis_class.py" afterPath="$PROJECT_DIR$/analysis_class.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analyze.py" afterPath="$PROJECT_DIR$/analyze.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/parameters.log" afterPath="$PROJECT_DIR$/output/parameters.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/tables/build/results_table_preview.aux" afterPath="$PROJECT_DIR$/output/tables/build/results_table_preview.aux" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/tables/results_table_preview.tex" afterPath="$PROJECT_DIR$/output/tables/results_table_preview.tex" />
     </list>
     <ignored path="gwcss.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,11 +58,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="farmer.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="farmer.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/farmer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="90" column="17" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
+            <state relative-caret-position="121">
+              <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -41,24 +70,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="analysis_class.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/analysis_class.py">
+      <file leaf-file-name="model.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="209" column="117" selection-start-line="209" selection-start-column="117" selection-end-line="209" selection-end-column="117" />
+            <state relative-caret-position="-196">
+              <caret line="101" column="61" selection-start-line="101" selection-start-column="61" selection-end-line="101" selection-end-column="61" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="analyze.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/analyze.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="64" column="36" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
-              <folding>
-                <element signature="e#137#168#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -82,13 +99,44 @@
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/output/parameters.json" />
         <option value="$PROJECT_DIR$/population_generator.py" />
-        <option value="$PROJECT_DIR$/model.py" />
         <option value="$PROJECT_DIR$/specifications/parameters.json" />
         <option value="$PROJECT_DIR$/playplay.py" />
         <option value="$PROJECT_DIR$/truncated_norm.py" />
-        <option value="$PROJECT_DIR$/farmer.py" />
         <option value="$PROJECT_DIR$/analyze.py" />
         <option value="$PROJECT_DIR$/analysis_class.py" />
+        <option value="$PROJECT_DIR$/specifications/m0_p5_v1.json" />
+        <option value="$PROJECT_DIR$/specifications/m0_p5_v0.json" />
+        <option value="$PROJECT_DIR$/specifications/m0_p5_v10.json" />
+        <option value="$PROJECT_DIR$/specifications/m0_p5_v5.json" />
+        <option value="$PROJECT_DIR$/specifications/m0_p25_v0.json" />
+        <option value="$PROJECT_DIR$/specifications/m0_p25_v5.json" />
+        <option value="$PROJECT_DIR$/specifications/m0_p25_v10.json" />
+        <option value="$PROJECT_DIR$/specifications/m0_p25_v1.json" />
+        <option value="$PROJECT_DIR$/specifications/m0_p75_v0.json" />
+        <option value="$PROJECT_DIR$/specifications/m0_p75_v1.json" />
+        <option value="$PROJECT_DIR$/specifications/m0_p75_v5.json" />
+        <option value="$PROJECT_DIR$/specifications/m0_p75_v10.json" />
+        <option value="$PROJECT_DIR$/run_specifications.sh" />
+        <option value="$PROJECT_DIR$/specifications/model1/m1_k1_A.json" />
+        <option value="$PROJECT_DIR$/specifications/model1/m1_k1_B.json" />
+        <option value="$PROJECT_DIR$/specifications/model1/m1_k1_C.json" />
+        <option value="$PROJECT_DIR$/specifications/model1/m1_k10_A.json" />
+        <option value="$PROJECT_DIR$/specifications/model1/m1_k10_B.json" />
+        <option value="$PROJECT_DIR$/specifications/model1/m1_k10_C.json" />
+        <option value="$PROJECT_DIR$/specifications/model1/m1_k50_A.json" />
+        <option value="$PROJECT_DIR$/specifications/model1/m1_k50_B.json" />
+        <option value="$PROJECT_DIR$/specifications/model1/m1_k100_A.json" />
+        <option value="$PROJECT_DIR$/specifications/model1/m1_k50_C.json" />
+        <option value="$PROJECT_DIR$/specifications/model1/m1_k100_B.json" />
+        <option value="$PROJECT_DIR$/specifications/model1/m1_k100_C.json" />
+        <option value="$PROJECT_DIR$/model.py" />
+        <option value="$PROJECT_DIR$/specifications/model2/m2_k50_B_P25.json" />
+        <option value="$PROJECT_DIR$/specifications/model2/m2_k50_B_P50.json" />
+        <option value="$PROJECT_DIR$/specifications/model2/m2_k50_B_P75.json" />
+        <option value="$PROJECT_DIR$/specifications/model2/m2_k50_A_P25.json" />
+        <option value="$PROJECT_DIR$/specifications/model2/m2_k50_A_P50.json" />
+        <option value="$PROJECT_DIR$/specifications/model2/m2_k50_A_P75.json" />
+        <option value="$PROJECT_DIR$/farmer.py" />
       </list>
     </option>
   </component>
@@ -156,20 +204,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gwcss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gwcss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="output" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -179,10 +213,12 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/specifications/model1" />
       <recent name="$PROJECT_DIR$/specifications" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/specifications" />
     </key>
   </component>
   <component name="RunManager">
@@ -335,6 +371,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="efd4aeb8-42d2-47d5-baa0-c7bd622f649d" name="Default" comment="" />
@@ -343,14 +382,37 @@
       <option name="presentableId" value="Default" />
       <updated>1467058453906</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added sweep cases for model 0 and 1">
+      <created>1467178134273</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1467178134273</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Implemented model 2">
+      <created>1467180312666</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1467180312666</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fixed bug in model 2 implementation">
+      <created>1467180547512</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1467180547512</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="739" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -368,8 +430,22 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added sweep cases for model 0 and 1" />
+    <MESSAGE value="Implemented model 2" />
+    <MESSAGE value="Fixed bug in model 2 implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed bug in model 2 implementation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -417,16 +493,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
-          <folding>
-            <element signature="e#150#161#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/specifications/parameters.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -451,19 +517,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/farmer.py">
+    <entry file="file://$PROJECT_DIR$/analysis_class.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="90" column="17" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="209" column="117" selection-start-line="209" selection-start-column="117" selection-end-line="209" selection-end-column="117" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/analyze.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="149">
           <caret line="64" column="36" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
           <folding>
             <element signature="e#137#168#0" expanded="true" />
@@ -471,11 +535,269 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/analysis_class.py">
+    <entry file="file://$PROJECT_DIR$/specifications/m0_p5_v10.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="209" column="117" selection-start-line="209" selection-start-column="117" selection-end-line="209" selection-end-column="117" />
+        <state relative-caret-position="165">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specifications/m0_p25_v0.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specifications/m0_p25_v1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specifications/m0_p25_v5.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specifications/m0_p25_v10.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specifications/m0_p75_v0.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specifications/m0_p75_v1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specifications/m0_p75_v5.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specifications/m0_p75_v10.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_specifications.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specifications/m0_p5_v1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specifications/m0_p5_v5.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specifications/models/m1_k1_A.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specifications/models/m1_k1_B.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specifications/models/m1_k1_C.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specifications/models/m1_k10_A.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specifications/models/m1_k10_B.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specifications/models/m1_k10_C.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specifications/models/m1_k50_A.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specifications/models/m1_k50_B.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specifications/models/m1_k100_A.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specifications/models/m1_k50_C.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specifications/models/m1_k100_B.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specifications/models/m1_k100_C.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specifications/m0_p5_v0.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specifications/models/m2_k50_A_P25.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specifications/models/m2_k50_A_P50.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specifications/models/m2_k50_B_P25.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specifications/models/m2_k50_B_P50.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specifications/models/m2_k50_B_P75.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specifications/models/m2_k50_A_P75.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-196">
+          <caret line="101" column="61" selection-start-line="101" selection-start-column="61" selection-end-line="101" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/farmer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

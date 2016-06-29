@@ -5,16 +5,239 @@
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{graphicx}
-\usepackage{booktabs}
+\usepackage{booktabs, morefloats}
 \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
 \author{Claudius Gr\"abner}
 \title{Results}
 \begin{document}
+\maketitle
+\section{Results for the baseline model}
+
 \begin{table}
 \begin{center}
-\input{parameters_table.tex}
+\input{m0_p5_v0_table.tex}
 \end{center}
-\caption{Summary statistics.}
+\caption{Summary statistics for baseline model with switching probability $50\%$  and $\sigma_{NP}=0$.}
+\end{table}
+\begin{table}
+\begin{center}
+\input{m0_p5_v1_table.tex}
+\end{center}
+\caption{Summary statistics for baseline model with switching probability $50\%$  and $\sigma_{NP}=1$.}
+\end{table}
+\begin{table}
+\begin{center}
+\input{m0_p5_v5_table.tex}
+\end{center}
+\caption{Summary statistics for baseline model with switching probability $50\%$ and $\sigma_{NP}=5$.}
+\end{table}
+\begin{table}
+\begin{center}
+\input{m0_p5_v10_table.tex}
+\end{center}
+\caption{Summary statistics for baseline model with switching probability $50\%$ and $\sigma_{NP}=10$.}
 \end{table}
 
+\begin{table}
+\begin{center}
+\input{m0_p25_v0_table.tex}
+\end{center}
+\caption{Summary statistics for baseline model with switching probability $25\%$  and $\sigma_{NP}=0$.}
+\end{table}
+\begin{table}
+\begin{center}
+\input{m0_p25_v1_table.tex}
+\end{center}
+\caption{Summary statistics for baseline model with switching probability $25\%$  and $\sigma_{NP}=1$.}
+\end{table}
+\begin{table}
+\begin{center}
+\input{m0_p25_v5_table.tex}
+\end{center}
+\caption{Summary statistics for baseline model with switching probability $25\%$ and $\sigma_{NP}=5$.}
+\end{table}
+\begin{table}
+\begin{center}
+\input{m0_p25_v10_table.tex}
+\end{center}
+\caption{Summary statistics for baseline model with switching probability $25\%$ and $\sigma_{NP}=10$.}
+\end{table}
+
+\newpage
+
+\begin{table}
+\begin{center}
+\input{m0_p75_v0_table.tex}
+\end{center}
+\caption{Summary statistics for baseline model with switching probability $75\%$  and $\sigma_{NP}=0$.}
+\end{table}
+\begin{table}
+\begin{center}
+\input{m0_p75_v1_table.tex}
+\end{center}
+\caption{Summary statistics for baseline model with switching probability $75\%$  and $\sigma_{NP}=1$.}
+\end{table}
+\begin{table}
+\begin{center}
+\input{m0_p75_v5_table.tex}
+\end{center}
+\caption{Summary statistics for baseline model with switching probability $75\%$ and $\sigma_{NP}=5$.}
+\end{table}
+\begin{table}
+\begin{center}
+\input{m0_p75_v10_table.tex}
+\end{center}
+\caption{Summary statistics for baseline model with switching probability $75\%$ and $\sigma_{NP}=10$.}
+\end{table}
+\newpage
+\section{Results for extension 1}
+\begin{table}
+\begin{center}
+\input{m1_k1_A_table.tex}
+\end{center}
+\caption{Summary statistics for extension one  with $k=1$, $\delta_{P}=50 \%$, and decision making A.}
+\end{table}
+.
+\begin{table}
+\begin{center}
+\input{m1_k1_B_table.tex}
+\end{center}
+\caption{Summary statistics for extension one  with $k=1$, $\delta_{P}=50 \%$, and decision making B.}
+\end{table}
+.
+\begin{table}
+\begin{center}
+\input{m1_k1_C_table.tex}
+\end{center}
+\caption{Summary statistics for extension one  with $k=1$, $\delta_{P}=50 \%$, and decision making C.}
+\end{table}
+\newpage
+\begin{table}
+\begin{center}
+\input{m1_k10_A_table.tex}
+\end{center}
+\caption{Summary statistics for extension one  with $k=10$, $\delta_{P}=50 \%$, and decision making A.}
+\end{table}
+\begin{table}
+\begin{center}
+\input{m1_k10_B_table.tex}
+\end{center}
+\caption{Summary statistics for extension one  with $k=10$, $\delta_{P}=50 \%$, and decision making B.}
+\end{table}
+\begin{table}
+\begin{center}
+\input{m1_k10_C_table.tex}
+\end{center}
+\caption{Summary statistics for extension one  with $k=10$, $\delta_{P}=50 \%$, and decision making C.}
+\end{table}
+\newpage
+\begin{table}
+\begin{center}
+\input{m1_k50_A_table.tex}
+\end{center}
+\caption{Summary statistics for extension one  with $k=50$, $\delta_{P}=50 \%$, and decision making A.}
+\end{table}
+\begin{table}
+\begin{center}
+\input{m1_k50_B_table.tex}
+\end{center}
+\caption{Summary statistics for extension one  with $k=50$, $\delta_{P}=50 \%$, and decision making B.}
+\end{table}
+\begin{table}
+\begin{center}
+\input{m1_k50_C_table.tex}
+\end{center}
+\caption{Summary statistics for extension one  with $k=50$, $\delta_{P}=50 \%$, and decision making C.}
+\end{table}
+\newpage
+
+\begin{table}
+\begin{center}
+\input{m1_k100_A_table.tex}
+\end{center}
+\caption{Summary statistics for extension one  with $k=100$, $\delta_{P}=50 \%$, and decision making A.}
+\end{table}
+\begin{table}
+\begin{center}
+\input{m1_k100_B_table.tex}
+\end{center}
+\caption{Summary statistics for extension one  with $k=100$, $\delta_{P}=50 \%$, and decision making B.}
+\end{table}
+\begin{table}
+\begin{center}
+\input{m1_k100_C_table.tex}
+\end{center}
+\caption{Summary statistics for extension one  with $k=100$, $\delta_{P}=50 \%$, and decision making C.}
+\end{table}
+
+\newpage
+\section{Results for extension 2}
+In this extension, the farmers compare their yields to make decisions.
+\begin{table}
+\begin{center}
+\input{m2_k50_A_P25_table.tex}
+\end{center}
+\caption{Summary statistics for extension two with $k=50$ and $\delta_{P}=25 \%$.}
+\end{table}
+\begin{table}
+\begin{center}
+\input{m2_k50_A_P25_table.tex}
+\end{center}
+\caption{Summary statistics for extension two with $k=50$ and $\delta_{P}=25 \%$.}
+\end{table}
+\begin{table}
+\begin{center}
+\input{m2_k50_A_P25_table.tex}
+\end{center}
+\caption{Summary statistics for extension two with $k=50$ and $\delta_{P}=25 \%$.}
+\end{table}
+\begin{table}
+\begin{center}
+\input{m2_k50_A_P25_table.tex}
+\end{center}
+\caption{Summary statistics for extension two with $k=50$ and $\delta_{P}=25 \%$.}
+\end{table}
+\begin{table}
+\begin{center}
+\input{m2_k50_A_P25_table.tex}
+\end{center}
+\caption{Summary statistics for extension two with $k=50$, $\delta_{P}=25 \%$ and decision based upon comparison of all farmers' yield (case A).}
+\end{table}
+\begin{table}
+\begin{center}
+\input{m2_k50_A_P50_table.tex}
+\end{center}
+\caption{Summary statistics for extension two with $k=50$, $\delta_{P}=50 \%$ and decision based upon comparison of all farmers' yield (case A).}
+\end{table}
+
+\begin{table}
+\begin{center}
+\input{m2_k50_A_P75_table.tex}
+\end{center}
+\caption{Summary statistics for extension two with $k=50$, $\delta_{P}=75 \%$ and decision based upon comparison of all farmers' yield (case A).}
+\end{table}
+\begin{table}
+\begin{center}
+\input{m2_k50_B_P25_table.tex}
+\end{center}
+\caption{Summary statistics for extension two with $k=50$, $\delta_{P}=25 \%$ and decision based upon comparison of neighbors' yield (case B).}
+\end{table}
+
+\begin{table}
+\begin{center}
+\input{m2_k50_B_P50_table.tex}
+\end{center}
+\caption{Summary statistics for extension two with $k=50$, $\delta_{P}=50 \%$ and decision based upon comparison of neighbors' yield (case B).}
+\end{table}
+\begin{table}
+\begin{center}
+\input{m2_k50_B_P75_table.tex}
+\end{center}
+\caption{Summary statistics for extension two with $k=50$, $\delta_{P}=75 \%$ and decision based upon comparison of neighbors' yield (case B).}
+\end{table}
 \end{document}
+
+
+
+
+

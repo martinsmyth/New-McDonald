@@ -1,0 +1,13 @@
+{
+  "number_of_timesteps": 100,
+  "initial_share_P": 0.5,
+  "number_of_farmers": 100,
+  "p_P": 0.5,
+  "model": "model_1",
+  "model_1_case": "B",
+  "retrospective_memory": -100,
+  "yearly_cost_P": 1,
+  "fix_return_P": 3,
+  "mean_return_NP": 2,
+  "var_return_NP": 0
+}
