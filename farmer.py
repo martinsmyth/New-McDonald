@@ -21,7 +21,7 @@ class Farmer:
     def choose_seed(self, mean_NP, firstround=0):
         if self.__parameters["model"] == "model_0":
             self.__seed = np.random.choice((0, 1), p=(self.__parameters["p_P"], 1-self.__parameters["p_P"]))
-        elif self.__parameters["model"] == "model_1":
+        elif self.__parameters["model"] in ("model_1", "model_2"):
             if firstround == 1:
                 self.__seed = np.random.choice((0, 1), p=(self.__parameters["p_P"], 1 - self.__parameters["p_P"]))
             elif self.__parameters["model_1_case"] == "A":
