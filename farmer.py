@@ -56,13 +56,28 @@ class Farmer:
                 raise Exception("No correct case specified.")
                 exit(1)
 
-    def receive_income(self):
+    def receive_income(self, n):
+        """
+        Gives the agents their income.
+
+        Parameters
+        -----------
+
+        n : int
+            The number of agents using the NP seeds at the beginning of the time period considered.
+        """
         if self.__parameters["model"] == "model_0" or "model_1":
             if self.__seed == 0:
                 self.__wealth.append(float(self.__parameters["fix_return_P"]) - self.__parameters["yearly_cost_P"])
             else:  # TODO: Due to the fact that P has a fixed cost every year, its mean is de facto lower than NP
-                self.__wealth.append(self.positive_normal(self.__parameters["mean_return_NP"] - 0.065,
+                self.__wealth.append(self.positive_normal(self.__parameters["mean_return_NP"],
                                                           self.__parameters["var_return_NP"]))
+        elif self.__parameters["model"] == "model_2":
+            if self.__seed == 0:
+                self.__wealth.append(float(self.__parameters["fix_return_P"]) - self.__parameters["yearly_cost_P"])
+            else:
+                self.__wealth.append((2*(float(self.__parameters["fix_return_P"]) - self.__parameters["yearly_cost_P"]))
+                                     * (n / self.__parameters["number_of_farmers"]))
 
     @property
     def neighborhood(self):

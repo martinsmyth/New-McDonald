@@ -99,14 +99,14 @@ class Model:
         """
         The update procedure implemented at any time step.
         """
+        agents_NP = [f for f in self.__agents if f.seed == 1]
         if i == 0:
             mean_NP = self.__parameters["fix_return_P"] - self.__parameters["yearly_cost_P"]
         else:
-            agents_NP = [f for f in self.__agents if f.seed == 1]
             mean_NP = np.mean([np.mean(f.get_wealth()[self.__parameters["retrospective_memory"]:]) for f in agents_NP])
         for f in self.__agents:
             f.choose_seed(mean_NP)  # TODO might be effect of activation sequence
-            f.receive_income()
+            f.receive_income(len(agents_NP))
         self.record()
 
     def record(self):
