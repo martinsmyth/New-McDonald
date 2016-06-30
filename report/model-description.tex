@@ -4,10 +4,59 @@
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
-\usepackage{graphicx}
+\usepackage{graphicx, url,hyperref,booktabs}
 \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
 \author{Claudius Gr\"abner}
 \begin{document}
 \section{Model description}
+We first build a very primitive and simple model for the problem at hand.
+We then add more complex decision making rules for the agents. 
+This allows us the isolate the systemic effects of the changes in individual decision making.
+
+All implementations of the model follow the same sequence of events, as illustrated in table \ref{tab:procedure}.
+Agents first make a decision which seed to use. The decision making procedure depends on the model specification.
+At the end of the time step, agents receive their payoff according to the procedure mandated by the particular model specification.\footnote{We will keep the model description short. 
+The source code is freely available at \href{https://github.com/graebnerc/New-McDonald}{https://github.com/graebnerc/New-McDonald}.}
+
+\begin{table}
+\begin{center}
+\begin{tabular}{ll}
+\toprule
+(0.) & (Only in $t_0$: Initialization of the population and spatial allocation of the farmers.)\\\midrule
+1. & Calculation of the mean yield for the NP farmers (not in $t_0$).\\\midrule
+2. & Farmers choose their seed type sequentially (in a randomly determined sequence).\\\midrule
+3. & Recording of all relevant state variables.\\\bottomrule
+\end{tabular}
+\caption{The sequence of events in the simulation.}\label{tab:procedure}
+\end{center}
+\end{table}
+
+
+\subsection{Baseline model}
+We have a number of $N$ farmers, each of which needs to choose between the proprietary and non-proprietary seed. 
+In the baseline model, agents choose the seed randomly according to a probability fixed as a parameter.
+At the end of each time step, agents receive their payoffs.
+The yield of the P seed is fixed (and known to every agent) at $Y_P$.
+The yield of the NP seed is stochastic at the individual level following a truncated normal distribution with mean $Y_P$ and given variance $\sigma^2$ over the positive reals.
+
+\subsection{Model extension 1}
+In the first extension we relax the assumption of random choice of seed.
+Rather, agents compare the yield of the two seed types in previous time steps and pick those with the higher value.
+There are basically three different implementations of this and we explore all of them in our model:
+\begin{enumerate}
+\item  The agents compare the fixed return of the proprietary seed with the average yield of all agents that have used the non-proprietary alternative in the last k rounds (k is a parameter).
+\item The agents are located on a grid (with a von Neumann neighborhood) and compare the P payoff with the average payoffs of their neighbors using the NP seed (again considering the previous k rounds).
+\item This case does not differ to case B, but agents put more weight on their own payoff in the previous round (with a 50 per cent) weight.
+\end{enumerate}
+In any case, we introduce a parameter $k$ which specifies the memory of the farmers (i.e. the number of previous time steps they consider for the calculation of past yields.\footnote{This means that if $k=1$ farmers only compare the yields of the previous round. If $k=10$ they compare the average yield over the past 10 periods.}
+
+\subsection{Model extension 2}
+The second extension allows for network effects of the NP seed. 
+The expected yield is now a function of the number of agents using this seed.
+If $Y_P$ and $Y_{NP}$ denotes the yield of the P and NP seed respectively, $n$ is the number of farmers currently using the NP seed, and $N$ the total number of farmers, we have the following expression:
+\begin{equation}
+Y_{NP} =  Y_P \frac{n}{N}
+\end{equation}
+The rationale behind this is the increasing potential for innovation in such an ``open source'' environment.\footnote{In future work, this mechanism could be modeled explicitly using a genetic algorithm searching the space of possible seeds.}
 
 \end{document}

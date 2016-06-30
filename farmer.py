@@ -51,7 +51,7 @@ class Farmer:
             Baseline model (model_0):
                 Agents choose a type of seed at random.
             Extension 1: Here we distinguish three cases:
-                A : The agents compare the fixed return of the propietary seed with the average yield of all agents
+                A : The agents compare the fixed return of the proprietary seed with the average yield of all agents
                     that have used the non-proprietary alternative in the last k rounds (k is a parameter).
                 B: The agents are located on a grid (with a von Neumann neighborhood) and compare the P payoff with
                     the average payoffs of their neighbors using the NP seed (again considering the previous k rounds).

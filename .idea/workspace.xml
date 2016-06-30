@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efd4aeb8-42d2-47d5-baa0-c7bd622f649d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model.py" afterPath="$PROJECT_DIR$/model.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/build/model-description.pdf" afterPath="$PROJECT_DIR$/report/build/model-description.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/build/model-description.synctex.gz" afterPath="$PROJECT_DIR$/report/build/model-description.synctex.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/farmer.py" afterPath="$PROJECT_DIR$/farmer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/build/model-description.aux" afterPath="$PROJECT_DIR$/report/build/model-description.aux" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/model-description.tex" afterPath="$PROJECT_DIR$/report/model-description.tex" />
     </list>
     <ignored path="gwcss.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,8 +30,8 @@
       <file leaf-file-name="farmer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/farmer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+            <state relative-caret-position="1616">
+              <caret line="115" column="33" selection-start-line="115" selection-start-column="17" selection-end-line="115" selection-end-column="33" />
               <folding>
                 <element signature="e#147#158#0" expanded="true" />
               </folding>
@@ -62,7 +66,7 @@
       <file leaf-file-name="model.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="-1425">
               <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
               <folding>
                 <element signature="e#149#160#0" expanded="true" />
@@ -126,8 +130,8 @@
         <option value="$PROJECT_DIR$/specifications/model2/m2_k50_A_P75.json" />
         <option value="$PROJECT_DIR$/population_generator.py" />
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/farmer.py" />
         <option value="$PROJECT_DIR$/model.py" />
+        <option value="$PROJECT_DIR$/farmer.py" />
       </list>
     </option>
   </component>
@@ -736,16 +740,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/farmer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
-          <folding>
-            <element signature="e#147#158#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/population_generator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -766,9 +760,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/farmer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1616">
+          <caret line="115" column="33" selection-start-line="115" selection-start-column="17" selection-end-line="115" selection-end-column="33" />
+          <folding>
+            <element signature="e#147#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="-1425">
           <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
           <folding>
             <element signature="e#149#160#0" expanded="true" />
